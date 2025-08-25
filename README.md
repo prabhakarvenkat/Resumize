@@ -37,33 +37,40 @@ Resumize is a full-stack resume builder application that helps users create tail
 
 ## Setup & Running Instructions
 
+**Clone the repository:**
+```bash
+git clone https://github.com/prabhakarvenkat/Resumize.git
+cd Resumize
+```
+---
+
 ### Backend
 
 1. Navigate to backend folder:
 
-'''
+```bash
 cd backend
-'''
+```
 
 2. Create and activate a Python virtual environment (optional but recommended):
 
-'''
+```bash
 python3 -m venv venv
 source venv/bin/activate # macOS/Linux
 venv\Scripts\activate # Windows
-'''
+```
 
 3. Install required Python packages:
 
-'''
+```bash
 pip install -r requirements.txt
-'''
+```
 
 4. Run the Flask backend server:
 
-'''
+```bash
 python3 wsgi.py
-'''
+```
 
 The backend will run at `http://127.0.0.1:5001`.
 
@@ -73,21 +80,21 @@ The backend will run at `http://127.0.0.1:5001`.
 
 1. Navigate to frontend folder:
 
-'''
+```bash
 cd frontend
-'''
+```
 
 2. Install dependencies:
 
-'''
+```bash
 npm install
-'''
+```
 
 3. Start the React development server:
 
-'''
+```bash
 npm start
-'''
+```
 
 The app will open in your browser at `http://localhost:3000`.
 
