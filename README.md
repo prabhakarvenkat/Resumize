@@ -1,7 +1,7 @@
 # Resumize
 Resume Builder Website with ATS Optimization
 
-![Thumbnail Image](path/to/your/thumbnail.png)
+![](https://github.com/prabhakarvenkat/Resumize/blob/9a4917741a8c0437a396c3fde9dd5de8a9b828af/image.png)
 
 Resumize is a full-stack resume builder application that helps users create tailored resumes optimized for Applicant Tracking System (ATS) scoring. The app allows users to enter their personal details, education, work experience, skills, certifications, and a job description (JD). It then generates an ATS-friendly PDF resume highlighting relevant keywords extracted from the JD.
 
