@@ -1,11 +1,8 @@
 # Resumize
 Resume Builder Website with ATS Optimization
 
-<<<<<<< HEAD
-![](https://github.com/prabhakarvenkat/Resumize/blob/9a4917741a8c0437a396c3fde9dd5de8a9b828af/image.png)
-=======
 ![Thumbnail Image](https://github.com/prabhakarvenkat/Resumize/blob/9a4917741a8c0437a396c3fde9dd5de8a9b828af/image.png)
->>>>>>> 022ec4941d7c9f1fdb35efb3f2bf02325580df55
+
 
 Resumize is a full-stack resume builder application that helps users create tailored resumes optimized for Applicant Tracking System (ATS) scoring. The app allows users to enter their personal details, education, work experience, skills, certifications, and a job description (JD). It then generates an ATS-friendly PDF resume highlighting relevant keywords extracted from the JD.
 
@@ -44,29 +41,29 @@ Resumize is a full-stack resume builder application that helps users create tail
 
 1. Navigate to backend folder:
 
+'''
 cd backend
-
-text
+'''
 
 2. Create and activate a Python virtual environment (optional but recommended):
 
+'''
 python3 -m venv venv
 source venv/bin/activate # macOS/Linux
 venv\Scripts\activate # Windows
-
-text
+'''
 
 3. Install required Python packages:
 
+'''
 pip install -r requirements.txt
-
-text
+'''
 
 4. Run the Flask backend server:
 
+'''
 python3 wsgi.py
-
-text
+'''
 
 The backend will run at `http://127.0.0.1:5001`.
 
@@ -76,21 +73,21 @@ The backend will run at `http://127.0.0.1:5001`.
 
 1. Navigate to frontend folder:
 
+'''
 cd frontend
-
-text
+'''
 
 2. Install dependencies:
 
+'''
 npm install
-
-text
+'''
 
 3. Start the React development server:
 
+'''
 npm start
-
-text
+'''
 
 The app will open in your browser at `http://localhost:3000`.
 
